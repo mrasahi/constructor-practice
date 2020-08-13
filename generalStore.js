@@ -1,5 +1,5 @@
 // Standard constructor
-// -----------------------------------------
+// ======================================
 
 
 // function Item (name, price, id, quantity) {
@@ -41,8 +41,8 @@
 
 
 
-// Factory functions
-// -----------------------------------------
+// Factory function
+// ======================================
 
 
 const item = (name, price, id, quantity) => ({ name, price, id, quantity})
@@ -71,3 +71,8 @@ const frozen = (name, price, id, quantity, icecream, peas) => ({...item(name, pr
 let peas = frozen('peas', 2.50, '55541', null, false, true)
 
 console.log(peas)
+
+
+
+// Class constructor
+// ======================================
